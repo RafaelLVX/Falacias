@@ -1,0 +1,241 @@
+/*
+	# Falácias Falaciosas
+	Copyright 2018 Miniagência Ltda.
+	Contato: rafael@miniagencia.com.br
+
+	AVISO: Partes desse programa são Copyright Apache Foundation e Copyright jQuery Foundation, conforme sinalizado em seus respectivos arquivos.
+
+	Falácias Falaciosas é software livre, nos termos da Licença Pública Geral Affero GNU. Você pode acessar o código-fonte completo deste programa em https://github.com/RafaelLVX/Falacias. As informações em português estão disponíveis para sua referência, mas os avisos legais estão em inglês, conforme as regras em https://www.gnu.org/licenses/translations.html.
+
+	AVISO 2: As imagens neste programa não são software livre. Você pode usar o código-fonte deste programa nos termos de cada licença sinalizada no respectivo arquivo. As imagens foram licenciadas individualmente para uso neste pacote e não podem ser reproduzidas sem autorização explícita dos respectivos detentores do direito autoral.
+
+	This file is part of Falácias Falaciosas.
+
+    Falácias Falaciosas is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Falácias Falaciosas is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Falácias Falaciosas.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-attachment:fixed;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+
+
+
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    
+
+
+
+}
+
+/* --------------------- Do Rafael --------------------- */
+
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Assistant-Bold';
+    src: url('../fonts/Assistant-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Assistant-SemiBold';
+    src: url('../fonts/Assistant-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Assistant-ExtraLight';
+    src: url('../fonts/Assistant-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Assistant-Light';
+    src: url('../fonts/Assistant-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Assistant-ExtraBold';
+    src: url('../fonts/Assistant-ExtraBold.woff') format('woff');
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Assistant-Light', sans-serif;
+	text-shadow: none;
+}
+body {
+    font-size: 106%;
+}
+/* Elementos */
+
+a:link {
+	text-decoration: none;
+}
+b {
+    font-family: 'Assistant-Bold', sans-serif;
+    font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Assistant-SemiBold', sans-serif;
+	font-weight: normal;
+}
+h1 img{
+	max-height: 20px;
+}
+h2, h3 {
+	margin: .8em 0;
+    text-align: center;
+}
+h2.maior {
+	font-family: 'Assistant-Bold', sans-serif;
+	font-size: 170% !important;
+}
+img { 
+	max-width: 100%;
+	z-index: 999;
+}
+p {	margin: .8em 0; }
+
+/* Seletores */
+
+div[data-role="header"]{ /* Isso pode ou não bagunçar os cabeçalhos do jQuery Mobile. Remova se der problema. */
+    box-shadow: 0px 0px 8px black;
+}
+ul[data-role="listview"], ul[data-role="listview"] li, ul[data-role="listview"] li a, #menuprincipal {
+    /*background-color: steelblue;*/
+    font-weight: normal;
+}
+@media only screen and (min-width: 720px) {
+	[role="main"]:not(#sobre [role="main"]){
+		padding: 5em;
+	}
+}
+/* IDs */
+
+#home h2, #falacias h2, #jogo h2 {
+	background: steelblue;
+	border-radius: 1em;
+	color: white;
+	padding: 1em;
+	text-align: right;
+	width: 100%;
+	z-index: 1;
+}
+#menuprincipal p {
+    text-shadow: none;
+}
+
+/* Classes */
+
+.cartao {
+	display: block;
+	margin: 0 auto 1%;
+	max-height: 50%;
+	mix-blend-mode: multiply;
+}
+.cartao-amarelo, .cartao-branco, .cartao-vermelho {
+	width: 33%;
+}
+.cartao-amarelo.ui-btn {
+	background: gold !important;
+	border-color: goldenrod !important;
+}
+.cartao-branco.ui-btn {
+	background: white !important;
+	border-color: lightgray !important;
+}
+.cartao-vermelho.ui-btn {
+	background: tomato !important;
+	border-color: orangered !important;
+}
+@media only screen and (min-aspect-ratio: 4/3) {
+	.cartao {
+		float: left;
+		margin: 0 5% 1% 0;
+		width: 50%;
+	}
+}
+.center { text-align: center; }
+.dir { 	float: right; }
+span.dir, p.dir {text-align: right;}
+.esq { 	float: left; }
+.grupo2x2>* { 
+	margin: 0;
+	width: 50%;
+}
+.grupo2x2>*:first-child { border-radius: 1em 0 0 0; }
+.grupo2x2>*:nth-child(2) { border-radius: 0 1em 0 0; }
+.grupo2x2>*:nth-child(3) { border-radius: 0 0 0 1em; }
+.grupo2x2>*:last-child { border-radius: 0 0 1em 0; }
+@media only screen and (min-aspect-ratio: 4/3) {
+	.grupo2x2>* { width: 25%;}
+	.grupo2x2>*:first-child { border-radius: .5em 0 0 .5em; }
+	.grupo2x2>*:nth-child(2), .grupo2x2>*:nth-child(3) { border-radius: 0; }
+	.grupo2x2>*:last-child { border-radius: 0 .5em .5em 0; }
+}
+.grupo2e1>* { 
+	margin: 0;
+	width: 50%;
+}
+.grupo2e1>*:first-child { border-radius: 1em 0 0 0; }
+.grupo2e1>*:nth-child(2) { border-radius: 0 1em 0 0; }
+.grupo2e1>*:last-child { 
+	border-radius: 0 0 1em 1em; 
+	width: 100%;
+}
+@media only screen and (min-aspect-ratio: 4/3) {
+	.grupo2e1>* { width: 33% !important; }
+	.grupo2e1>*:first-child { border-radius: .5em 0 0 .5em; }
+	.grupo2e1>*:nth-child(2) { border-radius: 0; }
+	.grupo2e1>*:last-child { border-radius: 0 .5em .5em 0; }
+	.grupo2e1 { clear: both; }
+}
+.longo {
+   word-wrap: break-word;
+   white-space: normal;
+}
+.maior {
+	font-size: 150%;
+}
+.maiuscula { 
+	text-transform: uppercase;
+}
+.menor {
+    font-size: 85%;
+}
+.prim { margin-top: 0;}
+.smallcaps {
+	font-variant: small-caps;
+	line-height: 90%;
+}
+.ui-btn {
+	font-family: Assistant, 'sans-serif';
+	font-weight: normal;
+	text-shadow: none !important;
+}
+.w20 {	width: 20%;}
+.w25 {	width: 25%;}
+.w33 {	width: 33%;}
+.w50 {	width: 50%;}
+.w95 {	width: 95%;}

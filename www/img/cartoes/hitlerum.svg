@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1080px" height="1080px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1080 1080"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil10 {fill:none;fill-rule:nonzero}
+    .fil4 {fill:black;fill-rule:nonzero}
+    .fil2 {fill:#272727;fill-rule:nonzero}
+    .fil3 {fill:#6B6B6B;fill-rule:nonzero}
+    .fil13 {fill:#C08356;fill-rule:nonzero}
+    .fil7 {fill:white;fill-rule:nonzero}
+    .fil14 {fill:#AD6226;fill-rule:nonzero;fill-opacity:0.101961}
+    .fil15 {fill:#AD6226;fill-rule:nonzero;fill-opacity:0.149020}
+    .fil1 {fill:#BE7940;fill-rule:nonzero;fill-opacity:0.309804}
+    .fil12 {fill:white;fill-rule:nonzero;fill-opacity:0.560784}
+    .fil9 {fill:#252525;fill-rule:nonzero;fill-opacity:0.988235}
+    .fil5 {fill:#272727;fill-rule:nonzero;fill-opacity:0.988235}
+    .fil11 {fill:#AF622E;fill-rule:nonzero;fill-opacity:0.988235}
+    .fil6 {fill:#D1834A;fill-rule:nonzero;fill-opacity:0.988235}
+    .fil8 {fill:white;fill-rule:nonzero;fill-opacity:0.988235}
+    .fil0 {fill:url(#id0);fill-rule:nonzero}
+   ]]>
+  </style>
+  <radialGradient id="id0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.854498 0.493344 -0.493345 0.854498 361 -177)" cx="528.661" cy="575.44" r="192.019" fx="528.661" fy="575.44">
+   <stop offset="0" style="stop-opacity:1; stop-color:#ECCFAD"/>
+   <stop offset="0.560784" style="stop-opacity:1; stop-color:#E6BA8B"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#E1A66A"/>
+  </radialGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_556151655904">
+   <path class="fil0" d="M888 586l-22 297 -6 80c0,56 -20,102 -67,114 -8,2 -16,3 -26,3l-460 0c-14,0 -25,-2 -35,-7 -36,-17 -44,-63 -44,-115l-2 -29 -57 -713c0,-37 30,-98 68,-145 27,194 357,492 651,515z"/>
+   <path class="fil1" d="M235 71c0,0 91,488 653,548l0 -83 -653 -465z"/>
+   <g>
+    <g>
+     <g>
+      <path class="fil2" d="M790 11l-458 -11c-29,0 -65,27 -96,64 24,197 356,503 653,530l36 -399c0,-67 -68,-183 -135,-184z"/>
+     </g>
+     <g>
+      <path class="fil3" d="M790 11l-458 -11c-29,0 -65,27 -96,64 24,197 356,503 653,530l36 -399c0,-67 -68,-183 -135,-184z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil4" d="M790 11l-458 -11c-29,0 -65,27 -96,64 24,197 356,503 653,530l36 -399c0,-67 -68,-183 -135,-184z"/>
+     </g>
+     <g>
+      <path class="fil4" d="M790 11l-458 -11c-29,0 -65,27 -96,64 24,197 356,503 653,530l36 -399c0,-67 -68,-183 -135,-184z"/>
+     </g>
+    </g>
+   </g>
+   <path class="fil5" d="M237 63c0,0 1,417 -42,474l-26 -324c0,-7 -10,-53 68,-150z"/>
+   <path class="fil6" d="M883 601c0,0 26,-50 39,-33 14,17 -24,230 -39,247 -14,16 -14,16 -14,16l14 -230z"/>
+   <path class="fil6" d="M198 558c0,0 -27,-50 -41,-33 -13,17 29,226 40,246 9,17 16,15 16,15l-15 -228z"/>
+   <path class="fil7" d="M490 651c0,29 -24,53 -53,53 -29,0 -53,-24 -53,-53 0,-30 24,-54 53,-54 29,0 53,24 53,54z"/>
+   <path class="fil8" d="M682 648c0,30 -23,54 -53,54 -29,0 -52,-24 -52,-54 0,-29 23,-53 52,-53 30,0 53,24 53,53z"/>
+   <path class="fil9" d="M470 651c0,17 -14,32 -32,32 -17,0 -32,-15 -32,-32 0,-18 15,-32 32,-32 18,0 32,14 32,32z"/>
+   <path class="fil9" d="M662 651c0,17 -14,32 -32,32 -17,0 -31,-15 -31,-32 0,-18 14,-32 31,-32 18,0 32,14 32,32z"/>
+   <polygon class="fil9" points="614,910 451,910 462,830 532,838 605,830 "/>
+   <g>
+    <polygon class="fil10" points="642,944 548,936 433,944 "/>
+   </g>
+   <path class="fil11" d="M443 934c0,0 3,-2 7,-4 3,-2 5,-3 9,-5 3,-1 7,-3 11,-4 5,-2 9,-3 14,-5 3,0 5,-1 8,-1 3,-1 6,-1 8,-2 2,0 3,0 5,0 1,-1 3,-1 4,-1 3,0 6,0 9,-1 6,0 12,0 18,0 3,0 6,0 9,1 3,0 6,0 9,0 3,1 6,1 9,2 3,0 5,0 8,1 6,1 11,2 16,4 5,1 10,2 14,4 2,0 4,1 6,2 2,0 4,1 6,2 3,1 6,3 8,4 5,2 8,3 8,3 0,0 -3,0 -8,-1 -3,-1 -6,-2 -9,-2 -4,-1 -8,-2 -12,-3 -5,0 -9,-1 -14,-2 -5,-1 -11,-1 -16,-2 -6,-1 -11,-1 -17,-2 -3,0 -6,0 -9,-1 -2,0 -5,0 -8,0 -3,0 -6,0 -9,0 -3,0 -6,0 -9,0 -3,0 -5,0 -8,0 -2,0 -3,1 -4,1 -2,0 -3,0 -5,0 -2,0 -5,1 -8,1 -2,0 -5,0 -7,1 -1,0 -3,0 -4,0 -1,0 -2,1 -3,1 -3,0 -5,1 -7,1 -4,1 -9,2 -12,3 -3,1 -6,2 -9,2 -2,1 -4,2 -6,2 -1,1 -2,1 -2,1z"/>
+   <path class="fil9" d="M565 596c0,0 18,21 28,16 11,-6 83,-31 88,-41l-116 25z"/>
+   <path class="fil9" d="M501 592c0,0 -18,20 -28,15 -11,-5 -82,-32 -88,-42l116 27z"/>
+   <g>
+    <line class="fil10" x1="406" y1="645" x2="469" y2= "645" />
+   </g>
+   <path class="fil12" d="M430 645c-3,7 -9,11 -14,9 -5,-2 -6,-9 -3,-16 3,-7 9,-11 14,-9 4,2 6,9 3,16z"/>
+   <path class="fil12" d="M622 645c-3,7 -9,11 -14,9 -4,-2 -6,-9 -3,-16 3,-7 9,-11 14,-9 5,2 6,9 3,16z"/>
+   <path class="fil13" d="M460 808l6 2c2,1 4,2 6,2 5,1 9,2 13,3 2,0 4,1 6,1 2,0 4,0 6,0 2,1 4,1 6,1 2,0 4,0 7,0l1 0 1 1c1,1 2,1 3,2 1,0 1,1 2,1 1,1 2,1 3,2 1,0 2,1 3,1 1,0 2,1 3,1 1,0 2,0 3,1 1,0 2,0 3,0 1,0 2,0 3,0 1,0 1,0 2,0 1,0 2,0 3,0l3 -1c1,0 2,-1 3,-1 1,0 2,-1 3,-1l2 -2c1,0 2,-1 3,-1l2 -2 2 -1 1 0 6 -1 5 0c4,0 8,-1 11,-1 4,0 8,-1 12,-2 1,0 3,0 5,-1 2,-1 3,-1 5,-3 -1,2 -3,4 -4,5 -2,1 -4,2 -5,2 -4,2 -8,3 -11,4 -4,2 -8,2 -12,3 -2,1 -4,1 -6,1 -1,1 -3,1 -5,1l2 -1 -3 3c-1,0 -1,1 -3,2l-3 2c-1,1 -2,1 -3,2 -1,0 -3,1 -4,1l-4 1c-1,1 -2,1 -4,1 -1,0 -2,0 -4,0 -1,0 -2,0 -3,0 -2,0 -3,0 -4,-1 -2,0 -3,0 -4,-1 -1,0 -3,0 -4,-1 -1,0 -2,-1 -3,-1 -1,-1 -2,-2 -4,-2 -1,-1 -2,-2 -3,-2 -1,-1 -2,-2 -3,-3l3 1c-9,-1 -17,-2 -26,-5 -2,-1 -4,-2 -6,-3 -2,-1 -4,-2 -6,-3 -4,-2 -7,-4 -11,-7z"/>
+   <path class="fil14" d="M866 883l-6 80c0,66 -26,117 -93,117l-460 0c-67,0 -79,-56 -79,-122l-2 -29c13,42 42,84 100,93 127,20 420,3 420,3 0,0 70,7 83,-33 9,-26 26,-68 37,-109z"/>
+   <polygon class="fil15" points="524,675 531,829 553,825 567,821 545,675 "/>
+  </g>
+ </g>
+</svg>
