@@ -1,4 +1,4 @@
-# Falacias-Falaciosas
+# Falácias Falaciosas
 v.1.0.0 rc1
 
 Aplicativo de consulta a falácias, para você mostrar a seus inimigos.
@@ -9,7 +9,8 @@ Este app foi inspirado no artigo [*Cartões de Falácias*](https://rafael.lv/car
 
 ## Copyright e Licença
 
-Copyright 2018 Miniagência Ltda.
+Copyright 2018 [Miniagência Ltda.](https://miniagencia.com.br)
+rafael@miniagencia.com.br
 
 AVISO: Partes desse programa são Copyright Apache Foundation e Copyright jQuery Foundation, conforme sinalizado em seus respectivos arquivos.
 
