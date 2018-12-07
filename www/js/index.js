@@ -71,71 +71,8 @@ var app = {
 			$(this.parentElement.parentElement.parentElement).css("background-color", "rgb(249, 249, 249)");
 		});
 
-		/*
-		//Testes de áudio
-		$(".toca-unsure").click(function(){
-			toca("unsure");
-		});
-		$(".toca-rush").click(function(){
-			toca("rush");
-		});
-		$(".toca-discreet").click(function(){
-			loop("discreet");
-		});
-		//Função pra tocar áudio
-		function toca(som){
-			var fix = window.location.pathname.slice(0, -10);
-			var midia = new Media(
-				fix + "audio/" + som + ".ogg", //arquivo de áudio, com fix do Android (path)
-				function () { console.log("playAudio():Audio Success"); midia.release(); }, //log se funciona, libera o recurso
-				function (err) {alert("playAudio():Audio Error: " + err);	} //log se não funciona
-			);
-			//Toca o áudio
-			midia.play();
-		}
-		//botões de bateria mp3
-		$(".toca-ambient").click(function(){
-			tocamp3("ambient");
-		});
-		$(".toca-bass").click(function(){
-			tocamp3("bass");
-		});
-		$(".toca-bongo").click(function(){
-			tocamp3("bongo");
-		});
-		$(".toca-snare").click(function(){
-			tocamp3("snare");
-		});
-		$(".toca-highhat").click(function(){
-			tocamp3("highhat");
-		});
-		//Função pra tocar mp3
-		function tocamp3(som){	
-			var fix = window.location.pathname.slice(0, -10);
-			var midia = new Media(
-				fix + "audio/" + som + ".mp3", //arquivo de áudio, com fix do Android (path)
-				function () { console.log("playAudio():Audio Success");	midia.release();}, //log se funciona, libera o recurso
-				function (err) {alert("playAudio():Audio Error: " + err);	} //log se não funciona
-			);
-			//Toca o áudio
-			midia.play();
-		}
-		//loop maroto
-		function loop(som){
-			var fix = window.location.pathname.slice(0, -10);
-			var midia = new Media(
-				fix + "audio/" + som + ".ogg", //arquivo de áudio, com fix do Android (path)
-				function () { console.log("playAudio():Audio Success"); midia.play(); }, //log se funciona, repete
-				function (err) {alert("playAudio():Audio Error: " + err);	} //log se não funciona
-			);
-			//Toca o áudio
-			midia.play();
-		}
-*/
 		//Log do deviceready?
 		console.log('Received Event: ' + id);
-		//Log do objeto Media
-		//console.log(Media);
 	}
 };
 
