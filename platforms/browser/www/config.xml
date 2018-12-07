@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="lv.rafael.falacias" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Falácias Falaciosas</name>
+    <description>
+        Uma lista de falácias para você consultar e apresentar a inimigos que usam falácias contra você.
+    </description>
+    <author email="r@fael.lv" href="https://rafael.lv">
+        RafaelLVX
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="HeaderColor" value="#183445" />
+    <preference name="SplashScreenBackgroundColor" value="white" />
+    <preference name="SplashScreenWidth" value="512" />
+    <preference name="SplashScreenHeight" value="512" />
+</widget>

@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "lv.rafael.falacias"
+    },
+    "cordova-plugin-headercolor": {
+      "PACKAGE_NAME": "lv.rafael.falacias"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "lv.rafael.falacias"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "lv.rafael.falacias"
+    }
+  },
+  "dependent_plugins": {}
+}

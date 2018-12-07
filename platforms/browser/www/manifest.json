@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Falácias Falaciosas",
+  "short_name": "Falácias Falaciosas",
+  "version": "lv.rafael.falacias",
+  "description": "Uma lista de falácias para você consultar e apresentar a inimigos que usam falácias contra você.",
+  "author": "RafaelLVX",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -35,7 +35,6 @@
         <icon density="xxxhdpi" src="res/icon/android/icon-96-xhdpi.png" />
         <preference name="ShowSplashScreenSpinner" value="false" />
         <preference name="SplashMaintainAspectRatio" value="true" />
-        <preference name="ShowTitle" value="true" />
     </platform>
     <platform name="browser">
         <preference name="SplashScreenBackgroundColor" value="white" />
@@ -49,4 +48,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-headercolor" spec="^1.0.0" />
     <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <engine name="browser" spec="~5.0.4" />
+    <engine name="android" spec="~7.1.4" />
 </widget>
