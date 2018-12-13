@@ -1,7 +1,7 @@
 # Falácias Falaciosas
-v.1.0.0 rc1
+v.1.0.1
 
-Aplicativo de consulta a falácias, para você mostrar a seus inimigos.
+Uma lista de falácias para você consultar e apresentar a inimigos que usam falácias contra você. App para Android e navegadores modernos.
 
 Desenvolvido pela [Miniagência](https://miniagencia.com.br)
 
