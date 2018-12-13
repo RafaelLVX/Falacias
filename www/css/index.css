@@ -46,7 +46,7 @@ body {
 
 
 /* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+@media screen and (orientation: Landscape) and (min-width:400px) {
     
 
 
@@ -193,13 +193,14 @@ span.dir, p.dir {text-align: right;}
 	width: 90%;
 }
 .grid123 form, .grid123 input, .grid123 img {
+	clear: both;
 	max-width: 100%;
 	text-align: center;
 }
 .grid1 { grid-area: esquerda;}
 .grid2 { grid-area: meio;}
 .grid3 { grid-area: direita;}
-@media only screen and (min-aspect-ratio: 4/3) {
+@media only screen and (orientation: Landscape) {
 	.grid123 {	grid-template-areas: 'esquerda meio direita';	}
 }
 .grupo2x2>* { 
@@ -211,7 +212,7 @@ span.dir, p.dir {text-align: right;}
 .grupo2x2>*:nth-child(2) { border-radius: 0 1em 0 0; }
 .grupo2x2>*:nth-child(3) { border-radius: 0 0 0 1em; }
 .grupo2x2>*:last-child { border-radius: 0 0 1em 0; }
-@media only screen and (min-aspect-ratio: 4/3) {
+@media only screen and (orientation: Landscape) {
 	.grupo2x2>* { width: 25%;}
 	.grupo2x2>*:first-child { border-radius: .5em 0 0 .5em; }
 	.grupo2x2>*:nth-child(2), .grupo2x2>*:nth-child(3) { border-radius: 0; }
@@ -228,7 +229,7 @@ span.dir, p.dir {text-align: right;}
 	border-radius: 0 0 1em 1em; 
 	width: 100%;
 }
-@media only screen and (min-aspect-ratio: 4/3) {
+@media only screen and (orientation: Landscape) {
 	.grupo2e1>* { width: 33% !important; }
 	.grupo2e1>*:first-child { border-radius: .5em 0 0 .5em; }
 	.grupo2e1>*:nth-child(2) { border-radius: 0; }
@@ -242,9 +243,9 @@ span.dir, p.dir {text-align: right;}
 }
 .grupo2x1>*:first-child { border-radius: 1em 0 0 1em; }
 .grupo2x1>*:last-child { border-radius: 0 1em 1em 0; }
-@media only screen and (min-aspect-ratio: 4/3) {
+@media only screen and (orientation: Landscape) {
 	.grupo2x1>* { width: 25%;}
-	.grupo2e1 { clear: both; }
+	.grupo2x1 { clear: both; }
 }
 .longo {
    word-wrap: break-word;
@@ -259,6 +260,15 @@ span.dir, p.dir {text-align: right;}
 .mel {
 	display: block;
 	margin: 1em auto;
+}
+/* Celular em paisagem */
+@media screen and (orientation: Landscape) {
+	.mel {
+		float: left;
+		margin: 0 1em 1em 0;
+		max-height: 100%;
+		max-width: 50% !important;
+	}
 }
 .menor {
     font-size: 85%;
