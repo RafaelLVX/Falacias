@@ -1,0 +1,15 @@
+{
+  "name": "lv.rafael.falacias",
+  "version": "1.0.1",
+  "displayName": "Falácias Falaciosas",
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-browser": "^5.0.4",
+    "cordova-android": "^7.1.4"
+  }
+}
