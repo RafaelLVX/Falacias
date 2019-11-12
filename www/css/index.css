@@ -107,10 +107,7 @@ h2, h3 {
 	margin: .8em 0;
     text-align: center;
 }
-h2.maior {
-	font-family: 'Assistant-Bold', sans-serif;
-	font-size: 170% !important;
-}
+h2.maior {font-family: 'Assistant-Bold', sans-serif;}
 img { 
 	max-width: 100%;
 	z-index: 999;
