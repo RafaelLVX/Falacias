@@ -1,9 +1,14 @@
 # Adicionado pelo Rafael
 .git/
 .idea/
+assinado/
+diversos/
 hooks/
 node_modules/
 platforms/
+*.bat
+*.gitignore
+*.npmignore
 
 # Built application files
 *.apk
