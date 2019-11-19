@@ -7,6 +7,9 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "lv.rafael.falacias"
+    },
     "cordova-plugin-headercolor": {
       "PACKAGE_NAME": "lv.rafael.falacias"
     },
@@ -14,9 +17,6 @@
       "PACKAGE_NAME": "lv.rafael.falacias"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "lv.rafael.falacias"
-    },
-    "cordova-plugin-file": {
       "PACKAGE_NAME": "lv.rafael.falacias"
     }
   },
